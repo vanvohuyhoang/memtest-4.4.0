@@ -1,0 +1,9 @@
+How to compile:
+1. rm trycpp.c
+2. vim tests.h 
+add
+#include <stddef.h>
+
+3. arm-linux-gnueabi-gcc -o memtester .c .h
+
+how to run:./memtester 64 1     //test 64MB once
